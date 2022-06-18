@@ -1,18 +1,17 @@
-// Variables and functions
+// variables & functions
+@import './partials/functions';
 @import './partials/variables';
 
-// Base and layout
+// base & layout
 @import './partials/base';
+@import './partials/breakpoints';
 
 // colors
+@import './partials/colors';
 
-// components
+// components (button, card, navbar etc)
+@import './components/card';
+@import 'components/button';
 
-// Utilities
-
-// test
-h1 {
-  a {
-    color: $error;
-  }
-}
+// utilities (margin, padding, opacity, etc)
+@import './partials/utilities';
